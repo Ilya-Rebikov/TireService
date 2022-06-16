@@ -5,9 +5,7 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TireService.Database", "src\TireService.Database\TireService.Database.sqlproj", "{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireService.Models", "src\TireService.Models\TireService.Models.csproj", "{723BBC17-286C-4D54-AC55-B8EE698BEC92}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireService.DAL", "src\TireService.DAL\TireService.DAL.csproj", "{614EAA24-23D2-4BA4-AF14-FD312C456C45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TireService.DAL", "src\TireService.DAL\TireService.DAL.csproj", "{614EAA24-23D2-4BA4-AF14-FD312C456C45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Release|Any CPU.Build.0 = Release|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
