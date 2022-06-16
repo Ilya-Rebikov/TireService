@@ -1,5 +1,6 @@
 ﻿namespace TireService.DAL.Repositories
 {
+    using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.EntityFrameworkCore;
     using TireService.DAL.Interfaces;
@@ -25,16 +26,19 @@
         /// </summary>
         protected DbContext DbContext { get; private set; }
 
+        /// <inheritdoc/>
         public virtual async Task<T> GetByIdAsync(int id)
         {
             return await DbContext.Set<T>().AsNoTracking().SingleOrDefaultAsync(e => e.Id == id);
         }
 
+        /// <inheritdoc/>
         public virtual IQueryable<T> GetAll()
         {
             return DbContext.Set<T>().AsNoTracking();
         }
 
+        /// <inheritdoc/>
         public virtual async Task<T> CreateAsync(T obj)
         {
             var temp = DbContext.Entry(obj);
@@ -45,6 +49,7 @@
             return temp.Entity;
         }
 
+        /// <inheritdoc/>
         public virtual async Task<T> UpdateAsync(T obj)
         {
             var temp = DbContext.Entry(obj);
@@ -54,6 +59,7 @@
             return temp.Entity;
         }
 
+        /// <inheritdoc/>
         public virtual async Task<T> DeleteAsync(T obj)
         {
             var temp = DbContext.Entry(obj);
