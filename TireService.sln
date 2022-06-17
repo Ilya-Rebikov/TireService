@@ -5,9 +5,16 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TireService.Database", "src\TireService.Database\TireService.Database.sqlproj", "{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireService.Models", "src\TireService.Models\TireService.Models.csproj", "{723BBC17-286C-4D54-AC55-B8EE698BEC92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TireService.DAL", "src\TireService.DAL\TireService.DAL.csproj", "{614EAA24-23D2-4BA4-AF14-FD312C456C45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireService.DAL", "src\TireService.DAL\TireService.DAL.csproj", "{614EAA24-23D2-4BA4-AF14-FD312C456C45}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11786484-B182-4D83-A5BE-F2549242B9BE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireService.UserAPI", "src\TireService.UserAPI\TireService.UserAPI.csproj", "{3947306A-B091-4F92-A4C7-64F185E013EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireService.MainAPI", "src\TireService.MainAPI\TireService.MainAPI.csproj", "{5CC02130-73C0-4EBA-A22E-257A6677BAFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +28,18 @@ Global
 		{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04802AC1-2C7B-44D3-98D3-87EC867ED2A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{723BBC17-286C-4D54-AC55-B8EE698BEC92}.Release|Any CPU.Build.0 = Release|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614EAA24-23D2-4BA4-AF14-FD312C456C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3947306A-B091-4F92-A4C7-64F185E013EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3947306A-B091-4F92-A4C7-64F185E013EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3947306A-B091-4F92-A4C7-64F185E013EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3947306A-B091-4F92-A4C7-64F185E013EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC02130-73C0-4EBA-A22E-257A6677BAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC02130-73C0-4EBA-A22E-257A6677BAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC02130-73C0-4EBA-A22E-257A6677BAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC02130-73C0-4EBA-A22E-257A6677BAFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
